@@ -28,10 +28,35 @@ body {
   background-size: cover;
 }
 
+.uppersection {
+  height: 50px;
+  width: 100vw;
+  background-color: rgb(50, 50, 50);
+}
+
+.title {
+  color: rgb(77, 136, 251);
+  font-size: 40px;
+  position: absolute;
+  left: 8px;
+}
+
+.team-declare {
+  color: rgb(0, 6, 139);
+  font-size: 11px;
+}
+
+.commands {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
 .columns {
-  width: 33.3vw;
+  width: calc(100% / 3);
   background-color: rgba(0, 0, 0, 0.8);
   float: left;
-  height: 100vh;
+  height: 100vw;
   color: white;
+  text-align: center;
 }
