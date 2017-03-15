@@ -27,6 +27,23 @@ body {
   background-image: url("dbw.jpg");
   background-size: cover;
 }
+.columnDiv{
+    height: 90vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2vh;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+ul{
+    list-style-type:none ;
+    text-align: center;
 
 .uppersection {
   height: 50px;
@@ -59,4 +76,9 @@ body {
   height: 100vw;
   color: white;
   text-align: center;
+}
+li{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
 }

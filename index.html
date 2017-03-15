@@ -17,18 +17,28 @@
     </section>
   </header>
 
-  <column class="columns">
-    Just testing text.
-  </column>
 
-  <column class="columns">
-    Just testing text.
-  </column>
 
-  <column class="columns">
-    Just testing text.
-  </column>
+<div class="columnDiv">
+  <section class="columns">
 
+        <h1>New Tasks</h1>
+ 
+      <ul>
+          <li ng-repeat="task in toDo">{{task}}</li>
+      </ul>
+  </section>
+
+  <section class="columns">
+      <h1>In Progress</h1>
+
+  </section>
+
+
+  <section class="columns">
+      <h1>Complete</h1>
+  </section>
+</div>
   <footer>
   </footer>
 
