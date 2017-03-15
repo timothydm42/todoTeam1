@@ -7,18 +7,23 @@
 </head>
 <body ng-controller="toDoCTRL">
 
-  <header>
+  <header class="uppersection">
+    <section class="title">
+      <p>ToDo App <span class="team-declare">as built by Team 1</span></p>
+    </section>
+    <section class="commands">
+      <input type="text" placeholder="add todo"/>
+      <button>add task</button>
+    </section>
   </header>
 
-  <section class="inputTop">
-    <input type="text" placeholder="add todo"/>
-    <button>add task</button>
-  </section>
+
+
 <div class="columnDiv">
   <section class="columns">
-      <div>
+
         <h1>New Tasks</h1>
-      </div>
+ 
       <ul>
           <li ng-repeat="task in toDo">{{task}}</li>
       </ul>
@@ -28,6 +33,7 @@
       <h1>In Progress</h1>
 
   </section>
+
 
   <section class="columns">
       <h1>Complete</h1>
