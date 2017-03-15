@@ -1,5 +1,4 @@
-
-angular.module('todoApp').controller('toDoCTRL', function($scope,toDoServ){
+angular.module('toDoApp').controller('toDoCTRL', function($scope,toDoServ){
 
 
 
