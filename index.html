@@ -10,20 +10,29 @@
   <header>
   </header>
 
-  <section>
+  <section class="inputTop">
     <input type="text" placeholder="add todo"/>
     <button>add task</button>
   </section>
+<div class="columnDiv">
+  <section class="columns">
+      <div>
+        <h1>New Tasks</h1>
+      </div>
+      <ul>
+          <li ng-repeat="task in toDo">{{task}}</li>
+      </ul>
+  </section>
 
-  <column>
-  </column>
+  <section class="columns">
+      <h1>In Progress</h1>
 
-  <column>
-  </column>
+  </section>
 
-  <column>
-  </column>
-
+  <section class="columns">
+      <h1>Complete</h1>
+  </section>
+</div>
   <footer>
   </footer>
 
